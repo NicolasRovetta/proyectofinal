@@ -1,0 +1,162 @@
+.header {
+    background: rgb(116, 111, 111);
+    text-align: center;
+    border-width: 1px;
+    border-color: black;
+    border-style: outset;
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: black;
+    height: 100%;
+    border-color: black;
+    border-width: 1px;
+    border-style: outset;
+    border-bottom-style: outset;
+}
+
+.flex-container>div {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font: size 5px;
+    font-family: Roboto Condensed;
+}
+
+.fotoperfil {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto {
+     width: 220px;
+     height: 220px;
+}
+
+
+.iconotel {
+    width: 20px;
+    height: 20px;
+    vertical-align: sub;
+}
+
+.iconoemail {
+    width: 20px;
+    height: 20px;
+    vertical-align: sub;
+}
+
+.iconoubic {
+    width: 20px;
+    height: 20px;
+    vertical-align: sub;
+}
+
+
+
+.main {
+    display: flex;
+    background-color: white;
+    height: 100vh;
+    border-width: 1px;
+    border-color: black;
+    border-right-style: outset;
+    border-left-style: outset;
+    border-bottom-style: none;
+    border-top-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section {
+    width: 70%;
+    height: 100%;
+    font-family: Roboto Condensed;
+}
+
+.estudios {
+    border-color: black;
+}
+
+.aside {
+    width: 30%;
+    height: 100%;
+    font-family: Roboto Condensed;
+    margin-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    background: linear-gradient(to right, rgb(153, 152, 152),rgb(112, 112, 112));;
+}
+
+.link {
+    width: 30px;
+    height: 30px;
+}
+
+.linkfedex {
+    width: 50px;
+    height: 30px;
+}
+
+.linkUBA {
+    width: 30px;
+    height: 30px;
+}
+
+.rectangulo1 {
+    width: 250px;
+    height: 10px;
+    background: #3e76a7;
+}
+
+.rectangulo2 {
+    width: 125px;
+    height: 10px;
+    background: #3e76a7;
+}
+
+.rectangulo3 {
+    width: 200px;
+    height: 10px;
+    background: #3e76a7;
+}
+
+.nombre {
+    width: 250px;
+    height: 100px;    
+    }
+
+
+
+.profesion {
+    width: 250px;
+    height: 100px;
+}
+
+.footer {
+    height:60px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+    align-items: center;
+    font-family: open;
+    background: linear-gradient(to right, rgb(153, 152, 152),rgb(112, 112, 112));
+}
+
+.engranaje {
+    width: 25px;
+    height: 25px;
+    vertical-align:sub;
+}
+
+#telefono {
+    color: black;
+}
+
